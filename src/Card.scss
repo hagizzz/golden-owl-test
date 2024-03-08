@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    height: 600px;
+    border-radius: 28px;
+    padding: 12px 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
+    padding-top: 0;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        background-color: #fff;
+        width: 300px;
+        z-index: 1;
+        font-size: 1.2em;
+        font-weight: bold;
+        overflow: hidden;
+
+        h3 {
+            margin: 10px 0;
+        }
+        .logo {
+            padding-top: 12px;
+            width: 50px;
+        }
+        .label {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            font-size: 1.22em;
+        }
+    }
+}
